@@ -112,14 +112,14 @@ function jogada(valor)
 			if(casasJogadas.length==9 && result<3 &&result<3)
 			{
 
-				document.getElementById("resultado").innerHTML = ("Empate!");
+				swal({title: "Velha",text: ":-(",timer: 2000,showConfirmButton: false});
 			   
 			}	
 			
 	 	}
 	 	else
 	 	{
-	 		alert("Essa casa ja foi jogada, tente outra");
+	 		swal({title: "Essa casa ja foi jogada!",text: "tente outra ",timer: 1000,showConfirmButton: false});
 
 	 	}
 
