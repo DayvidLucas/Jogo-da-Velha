@@ -1,0 +1,35 @@
+#jogo
+{
+    width:603px;
+    height:600px;
+    border:solid 0px
+}
+ 
+.linha
+{
+    height:200px;
+    border-bottom:solid 1px;
+}
+ 
+.casa
+{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+
+#casa3,#casa6,#casa9
+{
+    border-right: 0px;
+}
+
+#resultado
+{
+    height: 100px;
+    width: 200px;
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+    float:left;
+}
